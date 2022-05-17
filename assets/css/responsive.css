@@ -1,0 +1,188 @@
+@media all and (max-width: 992px){
+	.menu-area{
+		display: none;
+		position: absolute;
+		top: 100%;
+		left: 0;
+	}
+	.menu ul {
+		flex-direction: column;
+		background: #546467;
+		height: 100vh;
+		justify-content: start;
+		align-items: center;
+		padding-top: 7rem;
+	}
+	.menu ul li a {
+		font-size: 2rem;
+		padding: 1rem;
+		color: #fff;
+	}
+	.menu ul li:hover a{
+	color:#18214D ; 
+}
+	.fa-bars{
+		display: block;
+	}
+	.login {
+	display: flex;
+	justify-content: end;
+	}
+	.login a:first-child{
+		margin-right: 1.5rem;
+	}
+	.banner-img {
+	text-align: center;
+	margin-top: 5rem;
+}
+.banner-img img {
+	width: 75%;
+}
+h2 {
+	font-size: 4rem;
+	width: 89%;	
+	line-height: 5rem;
+	text-align: center;
+}
+.income-header p {
+	max-width: 100%;
+	margin: auto;
+	padding: 3rem 0 8rem 0;
+	text-align: center;
+}
+.income-img img {
+	max-width: 31rem;
+}
+h2 {
+	width: 100%;
+}
+.Carousel-area .owl-nav .owl-prev {
+	left: -2rem;
+}
+.Carousel-area .owl-nav .owl-next {
+	right: -2rem;
+}
+.trial-content h2 {
+	font-size: 4rem;
+	max-width: 100%;
+	line-height: 6rem;
+}
+.trial-content p {
+	max-width: 100%;
+	text-align: center;
+	padding-bottom: 2rem;
+}
+.trial {
+	text-align: center;
+}
+
+}
+@media all and (max-width: 768px){
+		.orders {
+	order: -1;
+}
+.income-content {
+	max-width: 100%;
+	text-align: center;
+	padding-bottom: 4rem;
+}
+.income-img {
+	text-align: center;
+}
+.income-left .income-img {
+	text-align: center;
+}
+.hair-service {
+	grid-template-columns: repeat(2, 1fr);
+	row-gap: 4rem;
+}
+.Carousel-area .owl-nav .owl-prev {
+	left: -3rem;
+}
+.Carousel-area .owl-nav .owl-next {
+	right: -3rem;
+}
+.contact {
+	padding-bottom: 5rem;
+}
+.socal-icon {
+	justify-content: center;
+	padding-top: 3rem;
+	align-items: center;
+}
+input[type="email"] {
+	max-width: 32rem;
+}
+input[type="submit"] {
+	max-width: 18rem;
+}
+.banner-from form {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	row-gap: 1rem;
+}
+}
+@media all and (max-width: 575px){
+	.login a{
+		display: none;
+	}
+h1 {
+	font-size: 4.8rem;
+	line-height: 6rem;
+}
+.Carousel-area .owl-nav .owl-prev {
+	left: 4rem;
+}
+.Carousel-area .owl-nav .owl-next {
+	right: 2rem;
+}
+.text {
+	text-align: center;
+}
+input[type="email"] {
+	max-width: 42rem;
+	margin-right: 0;
+	margin-bottom: 2rem;
+}
+.see-post a {
+	display: inline-flex;
+}
+}
+@media all and (max-width: 480px){
+
+	h2 {
+	font-size: 3rem;
+	width: 100%;
+	line-height: 4rem;
+}
+.hair {
+	max-width: 33rem;
+	width: 100%;
+	margin: auto;
+}
+.hair-service {
+	grid-template-columns: repeat(1, 1fr);
+
+}
+.apps-area h2 {
+	line-height: 6rem;
+}
+/*pricing*/
+.switch {
+	max-width: 10rem;
+}
+.form-switch .form-check-input {
+	width: 3rem;
+}
+.switch label .w-none, .duling-content p .w-none, .scheduling p .w-none{
+	display: none;
+}
+.switch label span, .duling-content p span, .scheduling p span{
+	display: block;
+}
+.listing .get-btn {
+	padding: 1rem 2rem;
+	font-size: 1.5rem;
+}
+
+}
